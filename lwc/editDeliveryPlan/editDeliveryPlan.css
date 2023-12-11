@@ -1,0 +1,16 @@
+.class1 {
+  height: 500px !important;
+  max-height: 500px !important;
+}
+.toast {
+  width: 100%;
+  z-index: inherit;
+}
+
+.template-hidden {
+  display: none;
+}
+
+.template-visible {
+  display: block;
+}

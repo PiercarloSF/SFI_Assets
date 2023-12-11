@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Contract Line Items Hierarchy" icon-name="standard:product">
+        <template if:true={showTable}>
+            <lightning-tree-grid
+            class="scrollable"
+            title="Contract Line Items Hierarchy"
+            columns={columns}
+            data={rootNodes}
+            key-field="id"
+            hide-checkbox-column="true"
+            ></lightning-tree-grid>
+        </template>
+    </lightning-card>
+</template>

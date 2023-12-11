@@ -1,0 +1,49 @@
+<template>
+    <!--template if:true={isVisible}-->
+    <!--/template-->
+    <template if:true={showmodal}>
+        <lightning-card title={cardTitle}
+                        icon-name="custom:custom85">
+            <lightning-record-edit-form record-id={planId} object-api-name="DeliveryPlan__c" onsubmit={handleSubmit} onsuccess={handleSuccess}>
+                <template if:true={showInputs}>
+                    <lightning-messages>
+                    </lightning-messages>
+                    <!--lightning-input-field field-name="Name">
+                    </lightning-inpÒut-field-->
+                    <lightning-input-field field-name="Grid_ScheduleFrequency__c" data-name="Grid_ScheduleFrequency__c"
+                                           onchange={scheduleFrequencyChanged}>
+                    </lightning-input-field>
+                    <lightning-input-field field-name="Grid_ScheduleCount__c" data-name="Grid_ScheduleCount__c">
+                    </lightning-input-field>
+                    <lightning-input-field class='template-hidden' field-name="Grid_Start_Month__c" data-name="Grid_Start_Month__c"
+                                           >
+                    </lightning-input-field>
+                    <lightning-input-field field-name="Grid_StartDate__c"
+                                           data-name="Grid_StartDate__c">
+                    </lightning-input-field>
+                    <lightning-input-field field-name="Grid_Quote__c" data-name="Grid_Quote__c" value={recordId}
+                                           class='slds-hidden'>
+                    </lightning-input-field>
+                    <div class="slds-align_absolute-center">
+                        <button class="slds-button slds-button_neutral" type="submit">Save</button>
+                    </div>
+                </template>
+            </lightning-record-edit-form>
+                <template if:false={showInputs}>
+                    <template if:true={cantGenerateDeliveryPlan}>
+                        <div
+                                class="slds-notify slds-notify_toast slds-theme_error toast"
+                                role="status"
+                        >
+                            <div class="slds-notify__content">
+                                <h2 class="slds-text-heading_small">
+                                    <!-- {htmlLabels.cantGenerateDeliveryPlan} -->
+                                    {cantGenerateDeliveryPlan}
+                                </h2>
+                            </div>
+                        </div>
+                    </template>
+                </template>
+        </lightning-card>
+    </template>
+</template>
