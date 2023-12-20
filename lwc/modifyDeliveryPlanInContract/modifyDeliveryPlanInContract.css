@@ -1,0 +1,25 @@
+.slds-modal__container {
+    width: 1170px !important;
+    max-width: 1170px !important;
+    height: auto !important;
+    max-height: auto !important;
+    padding: 16px;
+    padding-bottom: 4px;
+}
+
+.card-content {
+    padding-top: 16px;
+}
+
+.toast {
+    width: 100%;
+    z-index: inherit;
+}
+
+.template-hidden {
+    display: none;
+}
+
+.template-visible {
+    display: block;
+}

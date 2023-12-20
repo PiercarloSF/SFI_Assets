@@ -1,0 +1,48 @@
+<template>
+    <template if:true={showModal}>
+        <lightning-card title={cardTitle} icon-name="custom:custom85">
+            <div class="card-content">
+                <template for:each={deliveryPlans} for:item="deliveryPlan">
+                    <lightning-record-edit-form key={deliveryPlan.Id} record-id={deliveryPlan.Id}
+                                                object-api-name="DeliveryPlan__c" class="slds-modal__container"
+                                                onsubmit={handleSubmit}>
+                        <template if:true={showInputs}>
+                            <lightning-messages>
+                            </lightning-messages>
+                            <lightning-input-field field-name="Grid_ScheduleFrequency__c"
+                                                   data-name="Grid_ScheduleFrequency__c"
+                                                   onchange={scheduleFrequencyChanged} variant="label-inline">
+                            </lightning-input-field>
+                            <lightning-input-field field-name="Grid_ScheduleCount__c" data-name="Grid_ScheduleCount__c"
+                                                   variant="label-inline">
+                            </lightning-input-field>
+                            <lightning-input-field class="template-hidden" field-name="Grid_Start_Month__c" data-name="Grid_Start_Month__c"
+                                                  >
+                            </lightning-input-field>
+                            <lightning-input-field field-name="Grid_StartDate__c"
+                                                   data-name="Grid_StartDate__c">
+                            </lightning-input-field>
+                            <lightning-input-field field-name="Grid_Contract__c" value={recordId} class="slds-hidden"
+                                                   variant="label-inline">
+                            </lightning-input-field>
+                            <div class="slds-align_absolute-center">
+                                <button class="slds-button slds-button_neutral" type="submit">Save</button>
+                            </div>
+                        </template>
+                    </lightning-record-edit-form>
+                </template>
+                <template if:false={showInputs}>
+                    <template if:true={cantGenerateDeliveryPlan}>
+                        <div class="slds-notify slds-notify_toast slds-theme_error toast" role="status">
+                            <div class="slds-notify__content">
+                                <h2 class="slds-text-heading_small">
+                                    {cantGenerateDeliveryPlan}
+                                </h2>
+                            </div>
+                        </div>
+                    </template>
+                </template>
+            </div>
+        </lightning-card>
+    </template>
+</template>

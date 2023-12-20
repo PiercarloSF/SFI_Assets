@@ -42,8 +42,10 @@ handleSubmit(event) {
             Grid_Start_Month__c: this.convertToMonth(new Date(modifiedStartDate).getMonth()),
         };
         const recordInput = { apiName: DP_API, fields };
+        console.log(this.planId);
         if (!this.planId) {
             fields['Grid_Quote__c'] = this.recordId;
+            console.log(this.recordId);
             createRecord( recordInput )
                 .then(() => {
                 this.dispatchEvent(
