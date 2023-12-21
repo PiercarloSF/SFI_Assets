@@ -1,0 +1,3914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Terminate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Contract_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Contract_Record_Page2</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Contract_Compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Contract_Compact</fullName>
+        <fields>Grid_ContractConventionName__c</fields>
+        <fields>AccountId</fields>
+        <fields>Status</fields>
+        <fields>Scheda_231__c</fields>
+        <fields>Scheda_231_status__c</fields>
+        <fields>Grid_Scheda231StatusCheck__c</fields>
+        <fields>Grid_Scheda231NextCheckpointAuditDate__c</fields>
+        <fields>ContractNumber</fields>
+        <label>Contract Compact</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>Grid_ActivatedContract</fullName>
+        <fields>Grid_ContractConventionName__c</fields>
+        <fields>AccountId</fields>
+        <fields>Status</fields>
+        <fields>Grid_Scheda231Delivery__c</fields>
+        <fields>Grid_Scheda231DeliveryStatus__c</fields>
+        <fields>Grid_Scheda231DeliveryStatusCheck__c</fields>
+        <fields>Grid_Scheda231DeliveryNextCheckpoint__c</fields>
+        <label>Activated Contract</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <fieldSets>
+        <fullName>vlocity_cmt__EcommCachingFieldSet</fullName>
+        <description>Used in generation of Contract context key.</description>
+        <label>EcommCachingFieldSet</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>vlocity_cmt__FrameContractList</fullName>
+        <description>The fields on frame contract list page</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ContractNumber</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>AccountId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>StartDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>ContractTerm</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>EndDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>FrameContractList</label>
+    </fieldSets>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ActivatedDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AmendedContractId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Area_Vendita_SAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Area Vendita SAP</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Area__c</fullName>
+        <externalId>false</externalId>
+        <formula>vlocity_cmt__OpportunityId__r.Grid_Area__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Area</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Codice_Cliente_SAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Codice Cliente SAP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CompanySignedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CompanySignedId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Company_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Company Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Billing_Adress__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact Billing Adress</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractDocVersionCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ContractDocumentVersionId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContractTerm</fullName>
+        <inlineHelpText>auto populate after you fill out Contract Start and End Date</inlineHelpText>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ContractType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Contract_Sending_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Sending Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Signature_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date written next to the signature</inlineHelpText>
+        <label>Contract Signature Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contratto_Cliente_SAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Contratto Cliente SAP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <formula>vlocity_cmt__OpportunityId__r.Grid_Country__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Country</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedDate</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CustomerSignedTitle</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Deal_Expires_on__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contract_Sending_Date__c + Offer_Validity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Date after which the Contract is no longer valid</inlineHelpText>
+        <label>Deal Expires on</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+        <inlineHelpText>The date on which the supply of contracted goods or services end (ex. Last Delivery Contracted Date)</inlineHelpText>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Enddatee__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date on which the supply of contracted goods or services end (ex. Last Delivery Contracted Date)</inlineHelpText>
+        <label>Contract End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Enel_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Enel Relationship</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ENEL DSO client</fullName>
+                    <default>false</default>
+                    <label>ENEL DSO client</label>
+                </value>
+                <value>
+                    <fullName>Other DSO client</fullName>
+                    <default>false</default>
+                    <label>Other DSO client</label>
+                </value>
+                <value>
+                    <fullName>Supplier</fullName>
+                    <default>false</default>
+                    <label>Supplier</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExternalContractReference</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Grid_Condition_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Condition Terms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>30 days from the date of receipt of the invoice</fullName>
+                    <default>false</default>
+                    <label>30 days from the date of receipt of the invoice</label>
+                </value>
+                <value>
+                    <fullName>30 days from the end of the month</fullName>
+                    <default>false</default>
+                    <label>30 days from the end of the month</label>
+                </value>
+                <value>
+                    <fullName>60 days from the date of receipt of the invoice</fullName>
+                    <default>false</default>
+                    <label>60 days from the date of receipt of the invoice</label>
+                </value>
+                <value>
+                    <fullName>60 days from the end of the month</fullName>
+                    <default>false</default>
+                    <label>60 days from the end of the month</label>
+                </value>
+                <value>
+                    <fullName>Loan for use</fullName>
+                    <default>false</default>
+                    <label>Loan for use</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grid_ContractAutoNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Auto Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grid_ContractConventionName__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;GSP&quot; &amp;  Area__c &amp; &quot;_&quot; &amp;  vlocity_cmt__OpportunityId__r.OIRelationship__c &amp; &quot;_&quot; &amp;  vlocity_cmt__OpportunityId__r.Country_Iso_Code__c &amp; &quot;_&quot; &amp; TEXT(YEAR( DATEVALUE(CreatedDate))) &amp; &quot;_&quot; &amp;   TEXT(Grid_ContractAutoNumber__c) &amp; &quot; &quot; &amp;  Account.Name &amp; &quot;_&quot; &amp;  vlocity_cmt__OpportunityId__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contract Convention Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grid_Contract_Term_months__c</fullName>
+        <externalId>false</externalId>
+        <formula>vlocity_cmt__OpportunityId__r.Grid_NumberOfContractedMonths__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Auto populate after you fill out Contract Start and End Date</inlineHelpText>
+        <label>Contract Duration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grid_Economic_offer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Economic offer</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Enel_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account.Grid_EnelRelationship__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Enel Relationship</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grid_GuaranteeExpiration__c</fullName>
+        <externalId>false</externalId>
+        <formula>ADDMONTHS( Enddatee__c ,24)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Guarantee Expiration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Guarantees__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Guarantees</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grid_InHandoverDate__c</fullName>
+        <externalId>false</externalId>
+        <label>In Handover Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Profit_Loss__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Profit&amp;Loss</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231DeliveryCreatedDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231 Delivery Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231DeliveryLastEditDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231 Delivery Last Edit Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231DeliveryNextCheckpoint__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231 Delivery Next Checkpoint</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231DeliveryStatusCheck__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  Grid_Scheda231DeliveryStatus__c  ,
+&quot;Closed(green)&quot;, IMAGE(&quot;/resource/GraphicsPackNew/fatcow/farmfresh/32/accept.png&quot;,&quot;Green&quot;),
+&quot;Open (red)&quot;, IMAGE(&quot;/resource/GraphicsPackNew/fatcow/farmfresh/32/notUploaded.png&quot;,&quot;Blank&quot;),
+IMAGE(&quot;/resource/GraphicsPackNew/fatcow/farmfresh/32/notUploaded.png&quot;,&quot;Blank&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Scheda 231 Delivery Status Check</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231DeliveryStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231 Delivery Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open (red)</fullName>
+                    <default>true</default>
+                    <label>Open (red)</label>
+                </value>
+                <value>
+                    <fullName>Closed(green)</fullName>
+                    <default>false</default>
+                    <label>Closed(green)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231Delivery__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231 Delivery</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Uploaded (default)</fullName>
+                    <default>true</default>
+                    <label>Not Uploaded (default)</label>
+                </value>
+                <value>
+                    <fullName>Uploaded</fullName>
+                    <default>false</default>
+                    <label>Uploaded</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231NextCheckpointAuditDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231  Next Checkpoint Audit Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Scheda231StatusCheck__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( Scheda_231_status__c  ,
+&quot;Closed&quot;, IMAGE(&quot;/resource/GraphicsPackNew/fatcow/farmfresh/32/accept.png&quot;,&quot;Green&quot;),
+&quot;Open&quot;, IMAGE(&quot;/resource/GraphicsPackNew/fatcow/farmfresh/32/notUploaded.png&quot;,&quot;Blank&quot;),
+IMAGE(&quot;/resource/GraphicsPackNew/fatcow/farmfresh/32/notUploaded.png&quot;,&quot;Blank&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Scheda 231 Status Check</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Grid_Signed_contract_and_attachments__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Signed contract and attachments</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Technical_offer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Technical offer</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Total_Actual_quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Actual quantity</label>
+        <summarizedField>vlocity_cmt__ContractLineItem__c.Grid_Actual_Quantity__c</summarizedField>
+        <summaryForeignKey>vlocity_cmt__ContractLineItem__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Total_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>vlocity_cmt__QuoteId__r.Grid_QuoteTotal__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Total_planned_quantity__c</fullName>
+        <externalId>false</externalId>
+        <label>Total planned quantity</label>
+        <summarizedField>vlocity_cmt__ContractLineItem__c.vlocity_cmt__Quantity__c</summarizedField>
+        <summaryForeignKey>vlocity_cmt__ContractLineItem__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Grid_Various_supplier_offers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Various supplier offers</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Grid_XDaysAfterHandover__c</fullName>
+        <externalId>false</externalId>
+        <label>X Days After Handover</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Grid_isFrameAgreedActivated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is used in a Validation rule to determine whether the Contract has been Frame Agreed</description>
+        <externalId>false</externalId>
+        <label>isFrameAgreedActivated</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Holding_Nam__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Holding Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsAssociatedWithClm</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsRenewalProcessEnabled</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsStandard</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LocaleCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Note__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please update…</inlineHelpText>
+        <label>Note</label>
+        <length>140</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_contracted_Months__c</fullName>
+        <externalId>false</externalId>
+        <formula>(( Enddatee__c  -  startDatee__c ) /(365/12))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Auto populate after you fill out Contract Start and End Date</inlineHelpText>
+        <label>Number of contracted Months</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Offer_Validity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select number of valid days “ex. The Offer shall remain valid for a period of 30 days from the date of its issuance”</inlineHelpText>
+        <label>Offer Validity</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Oggetto_SAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Oggetto SAP</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OwnerExpirationNotice</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentContractId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PreviousContractId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
+        <businessStatus>Hidden</businessStatus>
+        <securityClassification>Confidential</securityClassification>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Profit_Center_SAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Profit Center SAP</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Status</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lost to Competitor</fullName>
+                    <default>false</default>
+                    <label>Lost to Competitor</label>
+                </value>
+                <value>
+                    <fullName>No Budget / Lost Funding</fullName>
+                    <default>false</default>
+                    <label>No Budget / Lost Funding</label>
+                </value>
+                <value>
+                    <fullName>No Decision / Non-Responsive</fullName>
+                    <default>false</default>
+                    <label>No Decision / Non-Responsive</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Contract Rejected</controllingFieldValue>
+                <valueName>Lost to Competitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contract Rejected</controllingFieldValue>
+                <valueName>No Budget / Lost Funding</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contract Rejected</controllingFieldValue>
+                <valueName>No Decision / Non-Responsive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contract Rejected</controllingFieldValue>
+                <valueName>Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contract Rejected</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ReminderTask__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Deal_Expires_on__c  &gt;  TODAY(), TRUE, FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ReminderTask</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RenewalNotificationDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RenewalNotificationTerm</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RenewalNotificationTermUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>RenewalObjectName</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Scheda_231_Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231  Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scheda_231_Next_Checkpoint_Audit_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>vlocity_cmt__OpportunityId__r.Grid_Scheda231NextCheckpointAuditDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Scheda 231 Next Checkpoint Audit Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scheda_231__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Uploaded (default)</fullName>
+                    <default>true</default>
+                    <label>Not Uploaded (default)</label>
+                </value>
+                <value>
+                    <fullName>Uploaded</fullName>
+                    <default>false</default>
+                    <label>Uploaded</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Scheda_231_last_modification_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231  last modification date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Scheda_231_status__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheda 231 status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open (red)</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed(green)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SourceOpportunityId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceOrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceQuoteId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SpecialTerms</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Stage_Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage Contract</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Internal Review</fullName>
+                    <default>false</default>
+                    <label>Internal Review</label>
+                </value>
+                <value>
+                    <fullName>Internal Approved- In Signature</fullName>
+                    <default>false</default>
+                    <label>Internal Approved- In Signature</label>
+                </value>
+                <value>
+                    <fullName>Contract Sent- Awaiting Client Reply</fullName>
+                    <default>false</default>
+                    <label>Contract Sent- Awaiting Client Reply</label>
+                </value>
+                <value>
+                    <fullName>Contract Terminated</fullName>
+                    <default>false</default>
+                    <label>Contract Terminated</label>
+                </value>
+                <value>
+                    <fullName>Contract Signed</fullName>
+                    <default>false</default>
+                    <label>Contract Signed</label>
+                </value>
+                <value>
+                    <fullName>Contract Rejected</fullName>
+                    <default>false</default>
+                    <label>Contract Rejected</label>
+                </value>
+                <value>
+                    <fullName>Activated</fullName>
+                    <default>false</default>
+                    <label>Activated</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+        <inlineHelpText>The date on which the supply of contracted goods or services begins (ex. First Delivery Contracted Date)</inlineHelpText>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TerminationDateTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TerminationReason</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TerminationType</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Tipo_OdV_SAP__c</fullName>
+        <externalId>false</externalId>
+        <label>Tipo OdV SAP</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Type_of_Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Contract</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Volturato</fullName>
+                    <default>false</default>
+                    <label>Volturato</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type_of_Opportunit__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( vlocity_cmt__OpportunityId__r.Grid_TypeOfOpportunity__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Type of Opportunity</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_of_Rollout__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Rollout</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Massiva</fullName>
+                    <default>false</default>
+                    <label>Massiva</label>
+                </value>
+                <value>
+                    <fullName>GU</fullName>
+                    <default>false</default>
+                    <label>GU</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WBS_SAP__c</fullName>
+        <externalId>false</externalId>
+        <label>WBS SAP</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isFrameAgreedActivated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is used in a Validation rule to determine whether the Contract has been Frame Agreed</description>
+        <externalId>false</externalId>
+        <label>isFrameAgreedActivated</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>startDatee__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The date on which the supply of contracted goods or services begins (ex. First Delivery Contracted Date)</inlineHelpText>
+        <label>Contract Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ActiveContractVersionId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Stores the version identifier of the active contract document of this contract</description>
+        <externalId>false</externalId>
+        <label>Active Contract Document</label>
+        <referenceTo>vlocity_cmt__ContractVersion__c</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ApplicationId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Application</label>
+        <referenceTo>vlocity_cmt__Application__c</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__AutoRenewObjectCreation__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The object that is created as part of a renewal initiation. Object could be Opportunity, Quote or Order</description>
+        <externalId>false</externalId>
+        <label>Renewal Notification Object</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Quote</fullName>
+                    <default>false</default>
+                    <label>Quote</label>
+                </value>
+                <value>
+                    <fullName>Order</fullName>
+                    <default>false</default>
+                    <label>Order</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ContractGroupId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Contract Group</label>
+        <referenceTo>vlocity_cmt__ContractGroup__c</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ContractReferenceNumber__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A field that can be used to store a user entered or externally referenced contract number</description>
+        <externalId>false</externalId>
+        <label>Contract Reference Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ContractType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The contract type this contract belongs to.</description>
+        <externalId>false</externalId>
+        <label>Contract Type</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__CountofContractVersion__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of document versions that have been created for this contract</description>
+        <externalId>false</externalId>
+        <label>Count of Contract Document</label>
+        <summaryForeignKey>vlocity_cmt__ContractVersion__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ExpirationReason__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Reason why they contract expired</description>
+        <externalId>false</externalId>
+        <label>Expiration Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Does not want to renew</fullName>
+                    <default>false</default>
+                    <label>Does not want to renew</label>
+                </value>
+                <value>
+                    <fullName>Moving to M2M</fullName>
+                    <default>false</default>
+                    <label>Moving to M2M</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ExpiredContractId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Specifies the expired contract which this contact now replaces. This contract is considered an replacement of the expired contract</description>
+        <externalId>false</externalId>
+        <label>Expired Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Replacement Contract</relationshipLabel>
+        <relationshipName>ReplacementContracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__IsActiveDocumentLocked__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the active version of the contract document of this contract is locked</description>
+        <externalId>false</externalId>
+        <formula>vlocity_cmt__ActiveContractVersionId__r.vlocity_cmt__IsDocumentLocked__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Active Document Locked</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__IsActiveVersionBatchTemplate__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>vlocity_cmt__ActiveContractVersionId__r.vlocity_cmt__IsTemplateBatchable__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>IsActiveVersionBatchTemplate</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__IsAutoRenew__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checked if this contract will be renewed automatically.</description>
+        <externalId>false</externalId>
+        <label>Auto Renew</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__IsFrameContract__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Checked if this contract is a frame contract or a pricing agreement</description>
+        <externalId>false</externalId>
+        <label>Is Frame Contract</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__IsNonStandard__c</fullName>
+        <deprecated>false</deprecated>
+        <description>If checked, specifies that this contract is a non-standard contract. A non-standard contract is one that deviates from its contract template</description>
+        <externalId>false</externalId>
+        <formula>if( vlocity_cmt__ActiveContractVersionId__r.vlocity_cmt__CountOfNonStandardSection__c &gt;0, true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Non Standard</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LastDocuSignEnvelopeId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last DocuSign Envelope Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LastDocuSignEnvelopeStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last DocuSign Envelope Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+                <value>
+                    <fullName>Voided</fullName>
+                    <default>false</default>
+                    <label>Voided</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LastDocuSignJobId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last DocuSign Job Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LastDocumentBatchJobError__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Document Batch Job Error</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LastDocumentBatchJobId__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Document Batch Job Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LastDocumentBatchJobStatus__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Document Batch Job Status</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__LocaleCode__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>vlocity_cmt__VlocityLocaleCode</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OneTimeTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total: One Time Charges</label>
+        <summarizedField>vlocity_cmt__ContractLineItem__c.vlocity_cmt__OneTimeTotal__c</summarizedField>
+        <summaryForeignKey>vlocity_cmt__ContractLineItem__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OpportunityId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The opportunity from which this contract was created</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OrderId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The order from which this contract was created</description>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__OriginalContractId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Specifies the original contract from which this contact was created. This contract is considered an amendment of the original contract</description>
+        <externalId>false</externalId>
+        <label>Original Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Amendment Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__ParentContractId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Specifies parent contract of this contract. This contract is considered a sub-contract of the parent contract</description>
+        <externalId>false</externalId>
+        <label>Parent Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Sub Contract</relationshipLabel>
+        <relationshipName>ParentContract</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__PriceListId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Price list used by contracts</description>
+        <externalId>false</externalId>
+        <label>Price List</label>
+        <referenceTo>vlocity_cmt__PriceList__c</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__QuoteId__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The quote from which this contract was created</description>
+        <externalId>false</externalId>
+        <label>Quote</label>
+        <referenceTo>Quote</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RecurringTotal__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total: Monthly Charges</label>
+        <summarizedField>vlocity_cmt__ContractLineItem__c.vlocity_cmt__RecurringTotal__c</summarizedField>
+        <summaryForeignKey>vlocity_cmt__ContractLineItem__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RenewalNotificationTerm__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The unit of measure for renewal notification period (days or months)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>auto populate after you fill out Contract Start and End Date</inlineHelpText>
+        <label>Renewal Notification Term</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Months</fullName>
+                    <default>true</default>
+                    <label>Months</label>
+                </value>
+                <value>
+                    <fullName>Days</fullName>
+                    <default>false</default>
+                    <label>Days</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RenewalNotification__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The time interval before contract expiration when a renewal notification is initiated</description>
+        <externalId>false</externalId>
+        <label>Renewal Notification Period</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__RenewalStartDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date on which a renewal notification is created, along with the specified renewal notification object. Calculated based on the contract end date, and the renewal notification term and renewal notification period values</description>
+        <externalId>false</externalId>
+        <label>Renewal Notification Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__SendRenewalNotification__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If checked, indicates that a renewal notification message would be sent on the renewal notification date.</description>
+        <externalId>false</externalId>
+        <label>Send Renewal Notification</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__SumOfNonStandardSection__c</fullName>
+        <deprecated>false</deprecated>
+        <description>DEPRECATED.</description>
+        <externalId>false</externalId>
+        <label>Sum of Non Standard Document</label>
+        <summarizedField>vlocity_cmt__ContractVersion__c.vlocity_cmt__CountOfNonStandardSection__c</summarizedField>
+        <summaryFilterItems>
+            <field>vlocity_cmt__ContractVersion__c.vlocity_cmt__Status__c</field>
+            <operation>equals</operation>
+            <value>Active</value>
+        </summaryFilterItems>
+        <summaryForeignKey>vlocity_cmt__ContractVersion__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__TerminateDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Date this contract was terminated</description>
+        <externalId>false</externalId>
+        <label>Terminate Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__TerminationReason__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The reason this contract was terminated</description>
+        <externalId>false</externalId>
+        <label>Termination Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Customer Not Compliance</fullName>
+                    <default>false</default>
+                    <label>Customer Not Compliance</label>
+                </value>
+                <value>
+                    <fullName>Termination without Cause</fullName>
+                    <default>false</default>
+                    <label>Termination without Cause</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__TerminationType__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The type of contract termination</description>
+        <externalId>false</externalId>
+        <label>Termination Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>With Cause</fullName>
+                    <default>false</default>
+                    <label>With Cause</label>
+                </value>
+                <value>
+                    <fullName>Without Cause</fullName>
+                    <default>false</default>
+                    <label>Without Cause</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__TotalMonthlyDiscount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total: Monthly Discount</label>
+        <summarizedField>vlocity_cmt__ContractLineItem__c.vlocity_cmt__RecurringDiscountPrice__c</summarizedField>
+        <summaryForeignKey>vlocity_cmt__ContractLineItem__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>vlocity_cmt__TotalOneTimeDiscount__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Total: One Time Discount</label>
+        <summarizedField>vlocity_cmt__ContractLineItem__c.vlocity_cmt__OneTimeDiscountPrice__c</summarizedField>
+        <summaryForeignKey>vlocity_cmt__ContractLineItem__c.vlocity_cmt__ContractId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <listViews>
+        <fullName>AllActivatedContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>All Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllContracts</fullName>
+        <columns>CONTRACT.CONTRACT_NUMBER</columns>
+        <columns>SALES.ACCOUNT.NAME</columns>
+        <columns>startDatee__c</columns>
+        <columns>Enddatee__c</columns>
+        <columns>CONTRACT.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CONTRACT.LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllDraftContracts</fullName>
+        <columns>CONTRACT.CONTRACT_NUMBER</columns>
+        <columns>SALES.ACCOUNT.NAME</columns>
+        <columns>startDatee__c</columns>
+        <columns>Enddatee__c</columns>
+        <columns>CONTRACT.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>All Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>AllInApprovalContracts</fullName>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>All In Approval Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyActivatedContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>A</value>
+        </filters>
+        <label>My Activated Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyDraftContracts</fullName>
+        <columns>CONTRACT.CONTRACT_NUMBER</columns>
+        <columns>SALES.ACCOUNT.NAME</columns>
+        <columns>startDatee__c</columns>
+        <columns>Enddatee__c</columns>
+        <columns>CONTRACT.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>D</value>
+        </filters>
+        <label>My Draft Contracts</label>
+    </listViews>
+    <listViews>
+        <fullName>MyInApprovalContracts</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CONTRACT.STATUS_CODE</field>
+            <operation>equals</operation>
+            <value>P</value>
+        </filters>
+        <label>My In Approval Contracts</label>
+    </listViews>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>ContractLifecycleManagement</fullName>
+        <active>false</active>
+        <label>Contract Lifecycle Management</label>
+        <picklistValues>
+            <picklist>Enel_Relationship__c</picklist>
+            <values>
+                <fullName>ENEL DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Condition_Terms__c</picklist>
+            <values>
+                <fullName>30 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan for use</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231DeliveryStatus__c</picklist>
+            <values>
+                <fullName>Closed%28green%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open %28red%29</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231Delivery__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231_status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage_Contract__c</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Sent- Awaiting Client Reply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approved- In Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Awaiting Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Negotiating</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signature Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Handover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Volturato</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Rollout__c</picklist>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Massiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__AutoRenewObjectCreation__c</picklist>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__ExpirationReason__c</picklist>
+            <values>
+                <fullName>Does not want to renew</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moving to M2M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LastDocuSignEnvelopeStatus__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LocaleCode__c</picklist>
+            <values>
+                <fullName>en_US</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>it</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__RenewalNotificationTerm__c</picklist>
+            <values>
+                <fullName>Days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Months</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationReason__c</picklist>
+            <values>
+                <fullName>Customer Not Compliance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationType__c</picklist>
+            <values>
+                <fullName>With Cause</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Grid_ActivatedContrat</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Grid_ActivatedContract</compactLayoutAssignment>
+        <label>Contract Activated</label>
+        <picklistValues>
+            <picklist>Enel_Relationship__c</picklist>
+            <values>
+                <fullName>ENEL DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Condition_Terms__c</picklist>
+            <values>
+                <fullName>30 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan for use</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231DeliveryStatus__c</picklist>
+            <values>
+                <fullName>Closed%28green%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open %28red%29</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231Delivery__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231_status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage_Contract__c</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Sent- Awaiting Client Reply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approved- In Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed%2Funder warranty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Sent- Awaiting Client Reply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Handover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approved- In Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Volturato</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Rollout__c</picklist>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Massiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__AutoRenewObjectCreation__c</picklist>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__ExpirationReason__c</picklist>
+            <values>
+                <fullName>Does not want to renew</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moving to M2M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LastDocuSignEnvelopeStatus__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LocaleCode__c</picklist>
+            <values>
+                <fullName>en_US</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>it</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__RenewalNotificationTerm__c</picklist>
+            <values>
+                <fullName>Days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Months</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationReason__c</picklist>
+            <values>
+                <fullName>Customer Not Compliance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationType__c</picklist>
+            <values>
+                <fullName>With Cause</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>vlocity_cmt__Contract</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Contract_Compact</compactLayoutAssignment>
+        <label>Contract</label>
+        <picklistValues>
+            <picklist>Enel_Relationship__c</picklist>
+            <values>
+                <fullName>ENEL DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Condition_Terms__c</picklist>
+            <values>
+                <fullName>30 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan for use</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231DeliveryStatus__c</picklist>
+            <values>
+                <fullName>Closed%28green%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open %28red%29</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231Delivery__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231_status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage_Contract__c</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Sent- Awaiting Client Reply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approved- In Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed%2Funder warranty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Sent- Awaiting Client Reply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Handover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approved- In Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Volturato</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Rollout__c</picklist>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Massiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__AutoRenewObjectCreation__c</picklist>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__ExpirationReason__c</picklist>
+            <values>
+                <fullName>Does not want to renew</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moving to M2M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LastDocuSignEnvelopeStatus__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LocaleCode__c</picklist>
+            <values>
+                <fullName>en_US</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>it</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__RenewalNotificationTerm__c</picklist>
+            <values>
+                <fullName>Days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Months</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationReason__c</picklist>
+            <values>
+                <fullName>Customer Not Compliance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationType__c</picklist>
+            <values>
+                <fullName>With Cause</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>vlocity_cmt__ReadOnlyContract</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Contract_Compact</compactLayoutAssignment>
+        <label>Read Only</label>
+        <picklistValues>
+            <picklist>Enel_Relationship__c</picklist>
+            <values>
+                <fullName>ENEL DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other DSO client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Condition_Terms__c</picklist>
+            <values>
+                <fullName>30 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the date of receipt of the invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>60 days from the end of the month</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loan for use</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231DeliveryStatus__c</picklist>
+            <values>
+                <fullName>Closed%28green%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open %28red%29</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Scheda231Delivery__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason__c</picklist>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Decision %2F Non-Responsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231__c</picklist>
+            <values>
+                <fullName>Not Uploaded %28default%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uploaded</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Scheda_231_status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage_Contract__c</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Sent- Awaiting Client Reply</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approved- In Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Contract Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Handover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal Approved- In Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Volturato</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Rollout__c</picklist>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Massiva</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__AutoRenewObjectCreation__c</picklist>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__ExpirationReason__c</picklist>
+            <values>
+                <fullName>Does not want to renew</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moving to M2M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LastDocuSignEnvelopeStatus__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Voided</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__LocaleCode__c</picklist>
+            <values>
+                <fullName>en_US</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>it</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__RenewalNotificationTerm__c</picklist>
+            <values>
+                <fullName>Days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Months</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationReason__c</picklist>
+            <values>
+                <fullName>Customer Not Compliance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>vlocity_cmt__TerminationType__c</picklist>
+            <values>
+                <fullName>With Cause</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Without Cause</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTRACT.STATUS</customTabListAdditionalFields>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Grid_ContractConventionName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SALES.ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.START_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.END_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT_TERM</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Contract_Dates_Validation_Rule</fullName>
+        <active>true</active>
+        <description>Start Contract date should be before End Contract date</description>
+        <errorConditionFormula>AND( NOT(ISBLANK( StartDate  )) ,NOT(ISBLANK( EndDate )), StartDate &gt; EndDate )</errorConditionFormula>
+        <errorMessage>The start date of the contract must be before the end date of the contract</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>FrameAgreementActivated</fullName>
+        <active>true</active>
+        <description>This validation rule stops the activation of a contract from the Path component without using the Frame Agreement Button.</description>
+        <errorConditionFormula>AND(
+  ISCHANGED(Status),
+  NOT(ISNEW()),
+  ISPICKVAL(Status, &quot;Activated&quot;),
+  Grid_isFrameAgreedActivated__c = false
+)</errorConditionFormula>
+        <errorMessage>Please activate using &apos;Activate Frame Agreement button&apos;.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Grid_ConditionTermsNotPopulated</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Status ,&quot;Handover&quot;) &amp;&amp; ISPICKVAL(Grid_Condition_Terms__c,&quot;&quot;)</errorConditionFormula>
+        <errorDisplayField>Grid_Condition_Terms__c</errorDisplayField>
+        <errorMessage>Please fill in the Condition Terms</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Grid_ContractSendingDateMandatory</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Status ,&quot;Contract Sent- Awaiting Client Reply&quot;) &amp;&amp; (ISNULL(Contract_Sending_Date__c) || ISNULL(Offer_Validity__c))</errorConditionFormula>
+        <errorMessage>Please fill in the Contract Sending Date and the Offer Validity information</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Grid_ContractSigned</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Status ,&quot;Contract Signed&quot;) &amp;&amp; ISNULL(Contract_Signature_Date__c)</errorConditionFormula>
+        <errorDisplayField>Contract_Signature_Date__c</errorDisplayField>
+        <errorMessage>Please fill in the Contract Signature Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Grid_EditRecordFailNotOwner</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND
+(
+NOT(ISNEW()), NOT(ISCHANGED(OwnerId)),
+$Profile.Name &lt;&gt;&apos;System Administrator&apos;,
+$User.Id &lt;&gt; OwnerId
+
+)</errorConditionFormula>
+        <errorMessage>Only the Owner can update the record</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Grid_Scheda231DeliveryDatesValidation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK( Grid_Scheda231DeliveryCreatedDate__c   )),NOT(ISBLANK( Grid_Scheda231DeliveryLastEditDate__c   )),Grid_Scheda231DeliveryCreatedDate__c &gt; Grid_Scheda231DeliveryLastEditDate__c)</errorConditionFormula>
+        <errorMessage>Scheda 231 Delivery Created date should be before Scheda 231 Delivery Las Modification date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Scheda_231_dates_validation_rule</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK( Scheda_231_Created_Date__c  )),NOT(ISBLANK( Scheda_231_last_modification_date__c  )),Scheda_231_Created_Date__c &gt; Scheda_231_last_modification_date__c)</errorConditionFormula>
+        <errorMessage>Scheda 231 Created date should be before Scheda 231 Las Modification date</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Clone_Quote</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Clone Quote</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://crmgridspertise--uat--vlocity-cmt.sandbox.vf.force.com/apex/vlocity_cmt__OmniScriptUniversalPage?id={0}&amp;layout=lightning#/OmniScriptType/CloneQ/OmniScriptSubType/Quote/OmniScriptLang/English/ContextId/{!Contract.Id}/PrefillDataRaptorBundle//true</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Grid_ActivateFrameAgreement</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Activate Frame Agreement</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://customer-cloud-86203.lightning.force.com/apex/vlocity_cmt__OmniScriptUniversalPage?id={0}&amp;layout=lightning#/OmniScriptType/ActivateFrameAgreement/OmniScriptSubType/Quote/OmniScriptLang/English/ContextId/{!Contract.Id}/PrefillDataRaptorBundle//true</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Grid_AmendFrameAgreement_Quote</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Amend Frame Agreement</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://crmgridspertise--devpro2--vlocity-cmt.sandbox.vf.force.com/apex/vlocity_cmt__OmniScriptUniversalPage?id={0}&amp;layout=lightning#/OmniScriptType/AmendFrameAgreement/OmniScriptSubType/Quote/OmniScriptLang/English/ContextId/{!Contract.Id}/PrefillDataRaptorBundle//true</url>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__CreateNewVersion</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create New Version</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+
+{!REQUIRESCRIPT(&quot;/xdomain/xdomain.js&quot;)} 
+
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+{!REQUIRESCRIPT(&quot;/support/console/22.0/integration.js&quot;)} 
+
+
+
+var namespace_prefix = &apos;&apos;; 
+
+var result = sforce.connection.describeGlobal(); 
+
+var TOKEN_OBJ = &quot;Party__c&quot;; 
+
+var sobjects = result.getArray(&quot;sobjects&quot;); 
+
+for(var i=0; i&lt;sobjects.length; i++) { 
+
+   var sobjName = sobjects[i].name; 
+
+   var str = sobjName.split(&quot;__&quot;); 
+
+
+
+   //if there are 3 values there is a namespace 
+
+   if (str.length == 3){ 
+
+       var sobj = str[1].valueOf() +&apos;__c&apos;; 
+
+       if(sobj == TOKEN_OBJ) { 
+
+         namespace_prefix = str[0].valueOf(); 
+
+       } 
+
+    } 
+
+} 
+
+
+
+if(namespace_prefix != &quot;&quot;){ 
+
+  namespace_prefix+= &apos;.&apos;; 
+
+} 
+
+
+
+var result = sforce.apex.execute(namespace_prefix+&quot;ContractServiceResource&quot;,&quot;createNewContractVersion&quot;, {contractId:&apos;{!Contract.Id}&apos;}); 
+
+
+
+
+
+if (!sforce.console.isInConsole()) { 
+
+   window.location.href = &apos;/&apos; + &apos;{!Contract.Id}&apos;;
+
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__CreatePDF</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Preview In PDF</masterLabel>
+        <openType>newWindow</openType>
+        <page>vlocity_cmt__ContractDocumentPdf</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__CreateRenewalOpportunity</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Renewal Opportunity</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+
+
+
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+
+
+var namespace_prefix = &apos;&apos;; 
+
+var result = sforce.connection.describeGlobal(); 
+
+var TOKEN_OBJ = &quot;Party__c&quot;; 
+
+var sobjects = result.getArray(&quot;sobjects&quot;); 
+
+
+
+for(var i=0; i&lt;sobjects.length; i++) { 
+
+
+
+   var sobjName = sobjects[i].name; 
+
+   var str = sobjName.split(&quot;__&quot;); 
+
+   //if there are 3 values there is a namespace 
+
+
+
+   if (str.length == 3){ 
+
+       var sobj = str[1].valueOf() +&apos;__c&apos;; 
+
+
+
+       if(sobj == TOKEN_OBJ) { 
+
+         namespace_prefix = str[0].valueOf(); 
+
+       } 
+
+    } 
+
+} 
+
+
+
+if(namespace_prefix != &quot;&quot;){ 
+
+  namespace_prefix+= &apos;.&apos;; 
+
+} 
+var contractName = &apos;{!Contract.Name}&apos;;
+
+if (contractName!=null &amp;&amp; contractName!=&apos;&apos;)
+{
+
+var result = sforce.apex.execute(namespace_prefix+&quot;ContractServiceResource&quot;,&quot;createRenewalOpportunity&quot;, {contractId:&apos;{!Contract.Id}&apos;}); 
+
+
+
+window.location.href = &apos;/&apos; + result;
+}
+else
+{
+alert(&apos;Please enter Contract Name&apos;);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__GenerateDocument</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Generate Document</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+
+{!REQUIRESCRIPT(&quot;/xdomain/xdomain.js&quot;)} 
+
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+{!REQUIRESCRIPT(&quot;/support/console/31.0/integration.js&quot;)} 
+
+
+
+var namespace_prefix = &apos;&apos;; 
+
+var result = sforce.connection.describeGlobal(); 
+
+var TOKEN_OBJ = &quot;Party__c&quot;; 
+
+var sobjects = result.getArray(&quot;sobjects&quot;); 
+
+for(var i=0; i&lt;sobjects.length; i++) { 
+
+var sobjName = sobjects[i].name; 
+
+var str = sobjName.split(&quot;__&quot;); 
+
+
+
+//if there are 3 values there is a namespace 
+
+if (str.length == 3){ 
+
+var sobj = str[1].valueOf() +&apos;__c&apos;; 
+
+if(sobj == TOKEN_OBJ) { 
+
+namespace_prefix = str[0].valueOf(); 
+
+} 
+
+} 
+
+} 
+
+
+
+if(namespace_prefix != &quot;&quot;){ 
+
+namespace_prefix+= &apos;.&apos;; 
+
+} 
+
+
+
+var result = sforce.apex.execute(namespace_prefix+&quot;ContractServiceResource&quot;,&quot;createNewContractVersionDocument&quot;, {contractId:&apos;{!Contract.Id}&apos;}); 
+
+var url = &apos;/&apos; + result;
+
+if (sforce.console.isInConsole()) { 
+
+  srcUp(url); 
+
+} else { 
+
+  window.location.href = &apos;/&apos; + result;
+
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__RevokeSignature</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Revoke eSignature</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+
+
+
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+
+
+
+
+
+
+var namespace_prefix = &apos;&apos;; 
+
+
+
+var result = sforce.connection.describeGlobal(); 
+
+
+
+var TOKEN_OBJ = &quot;Party__c&quot;; 
+
+
+
+var sobjects = result.getArray(&quot;sobjects&quot;); 
+
+
+
+
+
+
+
+for(var i=0; i&lt;sobjects.length; i++) 
+
+
+
+{ 
+
+
+
+var sobjName = sobjects[i].name; 
+
+
+
+var str = sobjName.split(&quot;__&quot;); 
+
+
+
+
+
+
+
+//if there are 3 values there is a namespace 
+
+
+
+if (str.length == 3) 
+
+
+
+{ 
+
+
+
+//Is it one of ours? 
+
+
+
+var sobj = str[1].valueOf() +&apos;__c&apos;; 
+
+
+
+if(sobj == TOKEN_OBJ) 
+
+
+
+{ 
+
+
+
+namespace_prefix = str[0].valueOf(); 
+
+
+
+break; 
+
+
+
+} 
+
+
+
+} 
+
+
+
+} 
+
+
+
+
+
+
+
+if(namespace_prefix != &quot;&quot;) 
+
+
+
+{ 
+
+
+
+namespace_prefix += &apos;.&apos;; 
+
+
+
+} 
+
+
+
+
+
+
+
+if(&apos;{!$User.vlocity_cmt__DocuSignEmail__c}&apos; == null || &apos;{!$User.vlocity_cmt__DocuSignEmail__c}&apos; == &quot;&quot;) 
+
+
+
+{ 
+
+
+
+alert(&apos;{!$User.Username}&apos; + &apos; does not have valid DocuSign account.&apos;); 
+
+
+
+} 
+
+
+
+else { 
+
+  var result =   sforce.apex.execute(namespace_prefix+&quot;ContractDocuSignResource&quot;,&quot;voidEnvelopes&quot;, {objectId: &apos;{!Contract.Id}&apos;, senderEmail:&apos;{!$User.vlocity_cmt__DocuSignEmail__c }&apos;}); 
+
+  if(result == &apos;OK&apos;)
+
+  {
+
+     window.location.reload();
+
+  }
+
+  else
+
+  {
+
+     alert(result);
+
+  } 
+
+
+
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__SendForSignature</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send for eSignature</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+var namespace_prefix = &apos;&apos;; 
+
+
+
+var result = sforce.connection.describeGlobal(); 
+
+var TOKEN_OBJ = &quot;Party__c&quot;; 
+
+var sobjects = result.getArray(&quot;sobjects&quot;); 
+
+
+
+for(var i=0; i&lt;sobjects.length; i++) { 
+
+var sobjName = sobjects[i].name; 
+
+var str = sobjName.split(&quot;__&quot;); 
+
+//if there are 3 values there is a namespace 
+
+if (str.length == 3){ 
+
+//Is it one of ours? 
+
+var sobj = str[1].valueOf() +&apos;__c&apos;; 
+
+if(sobj == TOKEN_OBJ) { 
+
+namespace_prefix = str[0].valueOf(); 
+
+} 
+
+} 
+
+} 
+
+if(namespace_prefix != &quot;&quot;){ 
+
+namespace_prefix+= &apos;__&apos;; 
+
+} 
+
+
+
+
+
+if(&apos;{!$User.vlocity_cmt__DocuSignEmail__c}&apos; == null || &apos;{!$User.vlocity_cmt__DocuSignEmail__c}&apos; == &quot;&quot;) 
+
+{ 
+
+alert(&apos;{!$User.Username}&apos; + &apos; does not have valid DocuSign account.&apos;); 
+
+} 
+
+else { 
+
+window.location = &apos;apex/&apos;+namespace_prefix+&apos;ContractDocuSignEnvelope?Id=&apos; +&apos;{!Contract.Id}&apos;+&apos;&amp;senderDocuSignEmail=&apos; +&apos;{!$User.vlocity_cmt__DocuSignEmail__c}&apos;; 
+
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>vlocity_cmt__UpdateEnvelopeStatus</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Update Envelope Status</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/connection.js&quot;)} 
+
+
+
+{!REQUIRESCRIPT(&quot;/soap/ajax/30.0/apex.js&quot;)} 
+
+
+
+
+
+
+
+var namespace_prefix = &apos;&apos;; 
+
+
+
+var result = sforce.connection.describeGlobal(); 
+
+
+
+var TOKEN_OBJ = &quot;Party__c&quot;; 
+
+
+
+var sobjects = result.getArray(&quot;sobjects&quot;); 
+
+
+
+
+
+
+
+
+
+
+
+for(var i=0; i&lt;sobjects.length; i++) 
+
+
+
+{ 
+
+
+
+ var sobjName = sobjects[i].name; 
+
+
+
+ var str = sobjName.split(&quot;__&quot;); 
+
+
+
+
+
+
+
+ //if there are 3 values there is a namespace 
+
+
+
+ if (str.length == 3)
+
+
+
+ { 
+
+
+
+  //Is it one of ours? 
+
+
+
+  var sobj = str[1].valueOf() +&apos;__c&apos;; 
+
+
+
+  if(sobj == TOKEN_OBJ) 
+
+
+
+  { 
+
+
+
+    namespace_prefix = str[0].valueOf();
+
+
+
+    break;
+
+
+
+  } 
+
+
+
+ } 
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+if(namespace_prefix != &quot;&quot;)
+
+
+
+{ 
+
+
+
+  namespace_prefix += &apos;.&apos;;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+var result = sforce.apex.execute(namespace_prefix+&quot;ContractDocuSignResource&quot;,&quot;updateEnvelopeStatus&quot;, {objectId: &apos;{!Contract.Id}&apos;});
+
+
+
+if( result == &apos;OK&apos; )
+
+{
+
+  window.location.reload();
+
+}
+
+else
+
+{
+
+  alert(result);
+
+}</url>
+    </webLinks>
+</CustomObject>
